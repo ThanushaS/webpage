@@ -8,7 +8,7 @@ const product = () => {
                <h1 className='text-center my-5'>OUR PRODUCTS</h1>
                <div className='row'>
                     <div className='col-lg-4 col-md-4 col-12'>
-                         <div className="card">
+                         <div className="card ">
                               <img src="/R.jpg" className="card-img-top"/>
                               <div className="card-body text-center">
                                    <h5 className="card-title">Turmeric</h5>

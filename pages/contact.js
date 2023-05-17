@@ -2,12 +2,12 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
+  
      <section id="contact">
      <div className="container box">
   <div class="row ">
     <div className="col-lg-6 col-md-6 col-12 ">
-    <img src="R1.jpg" />
+    <img src="R1.jpg" className='img-fluid'/>
     </div>
     <div className="col-lg-6 col-md-6 col-12">
       <h1>CONTACT US</h1>
@@ -21,7 +21,7 @@ const Contact = () => {
   </div>
           </div>
      </section>
-    </div>
+   
   )
 }
 

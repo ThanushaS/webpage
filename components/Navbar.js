@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-<div>
-<nav className="navbar navbar-expand-lg navbar-dark"id='navbar'>
+
+<nav className="navbar navbar-expand-lg navbar-dark sticky-top"id='navbar'>
   <div className="container-fluid">
     <a className="navbar-brand" href="#">SPICES</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" >
@@ -28,7 +28,7 @@ const Navbar = () => {
     </div>
   </div>
 </nav>
-</div>
+
     
   )
 }

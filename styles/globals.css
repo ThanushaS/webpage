@@ -7,7 +7,7 @@
      font-family: 'Poppins', sans-serif;
 }
 #navbar{
-     position: sticky;
+     position: sticky !important;
      top: 0;
      left: 0;
      z-index: 100;
@@ -111,6 +111,7 @@ section{
      align-items: center;
      margin: 20px 60px;
      transition: .2s;
+     padding: 22px;
 }
 .card:hover{
      box-shadow:inset 5px 5px 10px rgba(0,0,0,.3),
@@ -134,8 +135,4 @@ section{
 }
 #contact textarea{
      margin:10px 0px;
-}
-#contact img{
-     width: 350px;
-     height: 300px;
 }
